@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  align-self: center;
+}
+
+.dropdown-selection-container{
+  width: 350px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.selection{
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.selected-option{
+  padding: 12px 0 12px 18px;
+  flex: 1;
+  border-radius: 6px 0 0 0;
+}
+
+.dropdown-icon{
+  padding: 8px 16px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 0 10px 10px 0;
+  background-color: rgba(255,255,255,0.2);
+}
+
+
+.background {
+   background-image: url("/jd222.jpeg");
+   filter: blur(8px);
+   -webkit-filter: blur(8px);
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.hei{
+  height: 100%;
+}
+
+.hei8{
+  height: 70%;
+}
+
+.blurr{
+  filter: blur(2px);
+-webkit-filter: blur(2px);
+}
+.center {
+  align-items: center;
+    align-self: center;
+    display: flex;
+    width: 40vh;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+}
